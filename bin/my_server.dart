@@ -13,7 +13,7 @@ Future<HttpServer> createServer() async {
   return await HttpServer.bind(address, port);
 }
 
-//* cara 1
+//* method 1
 
 // Future<void> handleRequests(HttpServer server) async {
 //   await for (HttpRequest request in server) {
